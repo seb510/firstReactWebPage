@@ -1,7 +1,7 @@
 import vk from "../../img/icons/vk.svg";
 import instagram from "../../img/icons/instagram.svg";
 import twitter from "../../img/icons/twitter.svg";
-import githab from "../../img/icons/gitHub.svg";
+import gitHub from "../../img/icons/gitHub.svg";
 import linkedin from "../../img/icons/linkedIn.svg";
 
 import './style.css'
@@ -29,7 +29,7 @@ const Footer = () => {
                       </li>
                       <li className="social__item">
                           <a href="#!" target={"_blank"}>
-                              <img src={githab} alt="Link"/>
+                              <img src={gitHub} alt="Link"/>
                           </a>
                       </li>
                       <li className="social__item">

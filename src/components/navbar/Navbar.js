@@ -1,14 +1,16 @@
 import sun from "../../img/icons/sun.svg";
 import moon from "../../img/icons/moon.svg";
+
+import {NavLink} from "react-router-dom";
 import "./style.css"
 const Navbar = () => {
     return (
         <nav className="nav">
             <div className="container">
                 <div className="nav-row">
-                    <a href="./index.html" className="logo">
+                    <NavLink to="/" className="logo">
                         <strong>Freelancer</strong> portfolio
-                    </a>
+                    </NavLink>
 
                     <button className="dark-mode-btn">
                         <img src={sun} alt="Light mode" className="dark-mode-btn__icon"/>
