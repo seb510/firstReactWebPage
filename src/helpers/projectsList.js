@@ -57,8 +57,6 @@ const projects = [
         img: pr_6,
         imgBig: pr_6Big,
         skills: "React, PHP, MySQL",
-        gitHubLink: "https://github.com",
-
     },
 ]
 
