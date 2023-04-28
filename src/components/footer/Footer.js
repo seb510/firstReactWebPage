@@ -39,7 +39,7 @@ const Footer = () => {
                       </li>
                   </ul>
                   <div className="copyright">
-                      <p>© 2022 frontend-dev.com</p>
+                      <p>© {(new Date().getFullYear())} frontend-dev.com</p>
                   </div>
               </div>
           </div>
